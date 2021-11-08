@@ -1,0 +1,348 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    padding: 0px 100px;
+}
+
+section{
+    padding: 70px 0px;
+}
+
+.session-title{
+    text-align: center;
+}
+
+.session-title h2{
+    color: #545454;
+    font-size: 2.5rem;
+}
+
+.session-title p{
+    font-size: 1rem;
+    line-height: 1;
+    color: #545454;
+}
+.session-title hr{
+    width: 20%;
+    margin-left: 40%;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++ Navbar +++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++ */
+
+#navbar{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0px 200px;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.8rem;
+    color:#fff ;
+}
+.navbar .navbar-nav a{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++ Carousal +++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++ */
+
+.main-heading{
+    background-image: url(C:/Users/lubha/OneDrive/Desktop/desktop/practical/portfolio/images/pexels-valdemaras-d-1647962.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.home-detail .homexp{
+    color: #fff;
+    padding-top: 150px;
+}
+
+.home-detail .homexp h3{
+    font-size:2rem;
+}
+
+.home-detail .homexp h2{
+    font-size:4rem;
+    font-weight: 700;
+    font-family:'Grechen Fuemen', cursive;
+    line-height: 1;
+}
+
+.home-detail .homexp span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.home-detail .homexp span a{
+    color:#fe9c2c;
+}
+
+.home-detail .homexp span a:hover{
+    color:#fe9c2c;
+}
+
+
+.home-detail .homexp p{
+    font-size:1.1rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.home-detail .social-link i{
+    font-size: 1.2rem;
+    color:#fff;
+    padding: 0px 10px;
+}
+/*  */
+/*  */
+
+.about-us{
+    padding: 100px 0px;
+}
+
+.about-us .about-row {
+    padding-top: 50px;
+}
+
+.about-us .about-row .image-col {
+    text-align: center;
+}
+
+.about-us .about-row .image-col img{
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.8), 0 2px 10px 0 rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+    padding: 10px;
+    width: 90%; 
+}
+
+.about-us .about-row .image-col .btn {
+    margin-top: 40px;
+    width: 90%;
+    font-weight: 600;
+    text-transform: uppercase; 
+}
+
+/*  */
+/*  */
+
+.about-us .about-row .detail-col{
+    text-align: start;
+}
+
+.about-us .about-row .detail-col h2 {
+    font-weight: 700;
+    font-size: 3rem; 
+    color: #545454;
+    font-family:'Grechen Fuemen', cursive;
+
+}
+
+.about-us .about-row .detail-col h6 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #545454;
+}
+
+.about-us .about-row .detail-col p {
+    font-size: .94rem;
+    line-height: 30px;
+    color: #000; 
+}
+
+.about-us .about-row .detail-col .info-list {
+    margin-top: 30px; 
+    text-align: left;
+}
+
+.about-us .about-row .detail-col .info-list ul{
+    padding: 0%;
+}
+
+.about-us .about-row .detail-col .info-list ul li {
+      padding: 8px;
+      text-align: right;
+      font-size: .95rem; 
+      list-style: none;
+      
+}
+    
+.about-us .about-row .detail-col .info-list ul li span {
+        float: left;
+        font-weight: 600;
+        color: #000000; 
+}
+
+/*  */
+/*  */
+
+.service{
+    padding: 100px 0px;
+    background-color: #E8F6EF;
+}
+
+.service .services-row{
+    padding-top: 50px;
+}
+
+.service .services-row .seric-div .service-card{
+    background-color: #FFF;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.06);
+}
+
+.service .services-row .seric-div .service-card i {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 46px;
+    background-color: #fe9c2c;
+    color: #fff;
+    border-radius: 25px;
+    border-bottom-right-radius: 0;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; 
+}
+
+.service .services-row .seric-div .service-card h4 {
+    font-weight: 600;
+    font-size: 1.4rem; 
+}
+
+.service .services-row .seric-div .service-card p {
+    font-size: .95rem;
+    margin-top: 15px; 
+}
+
+.service .services-row .seric-div .service-card:hover {
+    background-color: #fe9c2c; 
+}
+
+.service .services-row .seric-div .service-card:hover i {
+      background-color: #FFF;
+      color: #fe9c2c; 
+}
+
+.service .services-row .seric-div .service-card:hover h4 {
+      color: #fff; 
+}
+
+.service .services-row .seric-div .service-card:hover p {
+      color: #fff; 
+}
+
+/*  */
+/*  */
+
+.skills .skii-div {
+    padding: 90px 110px; 
+}
+
+.skills .skii-div .title {
+    margin-bottom: 20px; 
+}
+
+.skills .skii-div .title h2 {
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-bottom: 5px; 
+}
+
+.skills .skii-div .title p {
+      font-weight: 500;
+      font-size: .9rem;
+}
+
+.skills .skii-div ul {
+    margin-top: 25px; 
+    padding: 0%;
+}
+
+.skills .skii-div ul li {
+      font-weight: 600;
+      font-size: .9rem;
+      margin-bottom: 30px; 
+      list-style: none;
+}
+
+.skills .skii-div ul li label {
+        margin-bottom: 15px; 
+}
+.skills .skii-div ul li .bg-warning {
+        background-color: #fe9c2c !important; 
+}
+
+.skills .tech-skill {                                                                                                                                                                     
+  background-color: #fff; 
+}
+
+.skills .pro-skill {
+  background-color: #f9fafc; 
+}
+
+/*  */
+/*  */
+
+.testimonial{
+    padding: 100px 0px;
+    background-color: #F8F8F8;
+}
+
+.testimonial .carousel-item{
+    padding: 0px 60px;
+}
+
+.testimonial .carousel-item q{
+    font-family: 'Birthstone', cursive;
+    font-size: 2.3rem;
+    color: #003638;
+    line-height: 1;  
+}
+
+
+/*  */
+/*  */
+
+
+/*  */
+/*  */
+
+.map .session-title{
+    padding: 0px 70px;
+}
+.map .session-title p{
+    line-height: 1.4;
+}
+
+.contact-us{
+    background-color: #F8F8F8;
+}
+
+.contact-us .contact-detail i{
+    color:#5089C6;
+    font-size: 2.2rem;
+    padding-bottom: 25px;
+}
+
+.contact-us .contact-detail p{
+    color: #545454;
+    font-size: 1.1rem;
+}
+
+.contact-us .session-title p{
+    font-size: 1rem;
+}
